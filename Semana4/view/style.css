@@ -1,0 +1,64 @@
+/* Estilos para el encabezado */
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la tabla */
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+/* Estilos para los botones */
+.btn {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}
+
+
+.form-container {
+    border: 2px solid #007BFF; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+label {
+    font-weight: bold; /* Hace que las etiquetas sean más audaces */
+    color: #007BFF; /* Cambia el color de las etiquetas al azul (#007BFF) */
+    margin-bottom: 5px; /* Agrega espacio inferior para separar las etiquetas */
+}
+
+
+
