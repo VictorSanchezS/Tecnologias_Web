@@ -1,7 +1,6 @@
 <?php 
 ini_set('display_errors', 1);
 require_once("../../view/head/head.php"); ?>
-<!-- <?php //require_once("./view/head/head.php");  ?> -->
 
 <form action="store.php" method="post" autocomplete="off">
     <div class="mb-3">
@@ -53,5 +52,4 @@ require_once("../../view/head/head.php"); ?>
     <a href="index.php" class="btn btn-danger">Cancelar</a>
 </form>
 
-<!-- <?php // require_once("./view/head/footer.php"); ?> -->
-<?php require_once("/opt/lampp/htdocs/Semana_04/view/head/footer.php"); ?>
+<?php require_once("../../view/head/footer.php"); ?>

@@ -1,8 +1,6 @@
 <?php
-ini_set('display_errors', 1);
 
-//require_once("./controller/teacherController.php");
-require_once("/opt/lampp/htdocs/Semana_04/controller/teacherController.php");
+require_once("../../controller/teacherController.php");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && (isset($_POST['submit']))) {
     $name_teacher = $_POST['name_teacher'];

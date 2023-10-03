@@ -31,8 +31,8 @@
                                 Docentes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="../teacher/index.php">Docentes</a></li>
-                                <li><a class="dropdown-item" href="../teacher/create.php">Agregar nuevo docente</a></li>
+                                <li><a class="dropdown-item" href="index.php">Docentes</a></li>
+                                <li><a class="dropdown-item" href="create.php">Agregar nuevo docente</a></li>
                             </ul>
                         </li>
                     </ul>

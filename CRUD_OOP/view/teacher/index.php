@@ -1,8 +1,10 @@
 <?php
 ini_set('display_errors', 1);
 
-require_once("/opt/lampp/htdocs/Semana_04/view/head/head.php");
-require_once("/opt/lampp/htdocs/Semana_04/controller/teacherController.php");
+require_once("../../view/head/head.php");
+require_once("../../controller/teacherController.php");
+
+
 $obj = new teacherController();
 $rows = $obj->index();
 
@@ -46,12 +48,12 @@ $rows = $obj->index();
             <?php endforeach; ?>
         <?php else : ?>
             <tr>
-                <th colspan="3" class="text-center">No hay registros actualmente</th>
+                <th colspan="8" class="text-center">No hay registros actualmente</th>
             </tr>
         <?php endif; ?>
     </tbody>
 </table>
 
 <?php
-require_once("/opt/lampp/htdocs/Semana_04/view/head/footer.php");
+require_once("../../view/head/footer.php");
 ?>

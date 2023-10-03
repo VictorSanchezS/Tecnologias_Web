@@ -1,0 +1,8 @@
+#restringir el acceso a los directorios
+Options All -Indexes
+
+#habilitar el motor de reescritura
+RewriteEngine On
+
+ErrorDocument 404 /CRUD_OOP/errors/404.html
+ErrorDocument 403 /CRUD_OOP/errors/403.html

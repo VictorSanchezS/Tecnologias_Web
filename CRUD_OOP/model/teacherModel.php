@@ -1,13 +1,10 @@
 <?php
-ini_set('display_errors', 1);
-
+require '../../config/db.php';
 class teacherModel
 {
     private $PDO;
     public function __construct()
     {
-        //require_once("./config/db.php");
-        require_once("/opt/lampp/htdocs/Semana_04/config/db.php");
         $conn = new db();
         $this->PDO = $conn->connection();
     }

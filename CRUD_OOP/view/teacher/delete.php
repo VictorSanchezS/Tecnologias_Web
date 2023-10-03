@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 
 // Requiere el controlador
-require_once("/opt/lampp/htdocs/Semana_04/controller/teacherController.php");
+require_once("../../controller/teacherController.php");
 
 $obj = new teacherController();
 

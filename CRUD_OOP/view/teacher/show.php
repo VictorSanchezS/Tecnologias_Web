@@ -1,7 +1,7 @@
 <?php
 ini_set('display_errors', 1);
-require_once("/opt/lampp/htdocs/Semana_04/view/head/head.php");
-require_once("/opt/lampp/htdocs/Semana_04/controller/teacherController.php");
+require_once("../../view/head/head.php");
+require_once("../../controller/teacherController.php");
 
 $obj = new teacherController();
 $data = $obj->show($_GET['id_teacher']);
@@ -63,5 +63,5 @@ $data = $obj->show($_GET['id_teacher']);
 </table>
 
 <?php
-require_once("/opt/lampp/htdocs/Semana_04/view/head/footer.php");
+require_once("../../view/head/footer.php");
 ?>

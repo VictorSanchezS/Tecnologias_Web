@@ -1,13 +1,14 @@
 <?php
-ini_set('display_errors', 1);
+
+require '../../model/teacherModel.php';
 
 class teacherController{
     private $model;
 
     public function __construct()
     {
+        
         //require_once("./model/teacherModel.php");
-        require_once("/opt/lampp/htdocs/Semana_04/model/teacherModel.php");
         $this->model = new teacherModel();
     }
 
