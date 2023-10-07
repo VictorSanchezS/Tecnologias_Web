@@ -1,0 +1,158 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Estilos del cuerpo (body) */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../imgs/bg-login.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Estilos del contenedor principal */
+.wrapper {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+
+
+/* Estilos del título "Login" */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Estilos de las cajas de entrada de texto */
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+/* Estilos para los campos de entrada en estado normal */
+.input-box input {
+    width: 100%;
+    height: 5; /* Altura inicial de 0 */
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, .2); /* Línea inferior */
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 20px 5px 20px; /* Espaciado ajustado para alinear con el texto */
+    transition: height 0.3s, padding 0.3s; /* Transiciones para altura y padding */
+}
+
+/* Estilos para los campos de entrada en estado enfocado (clic) */
+.input-box input:focus {
+    height: 50px; /* Altura aumentada cuando se enfoca */
+    padding: 5px 10px; /* Espacio alrededor del texto aumentado */
+}
+
+/* Estilos para los campos de entrada en estado hover (cursor sobre el campo) */
+.input-box:hover input {
+    border-bottom: 2px solid rgba(255, 255, 255, .4); /* Cambio de color en hover */
+}
+
+
+/* Estilos del texto de marcador de posición (placeholder) */
+.input-box input::placeholder {
+    color: #fff;
+}
+
+/* Estilos de los íconos en los campos de entrada de texto */
+.input-box i {
+    display: none;
+    
+}
+
+.input-box input:focus + i {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 60%;
+    transform: translateY(-100%);
+    font-size: 20px;
+}
+
+/* Estilos de la sección "Remember me" y "Forgot password?" */
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+/* Estilos de los enlaces */
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos de los enlaces al pasar el cursor sobre ellos */
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el botón en estado normal */
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    transition: background-color 0.3s; /* Transición para el color de fondo */
+}
+
+/* Estilos para el botón en estado hover (cursor sobre el botón) */
+.wrapper .btn:hover {
+    background-color: #ddd; /* Cambio de color en hover */
+}
+
+
+/* Estilos de la sección "Don't have an account?" */
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+/* Estilos de los enlaces de registro */
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Estilos de los enlaces de registro al pasar el cursor sobre ellos */
+.register-link p a:hover {
+    text-decoration: underline;
+}
