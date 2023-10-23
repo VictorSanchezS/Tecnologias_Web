@@ -20,7 +20,7 @@
     <div class="container-fluid bg-dark p-2 mb-3">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php">Inicio</a>
+                <a class="navbar-brand" href="../../../CRUD_OOP/index.php">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,8 +31,8 @@
                                 Docentes
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="index.php">Docentes</a></li>
-                                <li><a class="dropdown-item" href="create.php">Agregar nuevo docente</a></li>
+                                <li><a class="dropdown-item" href="../../../CRUD_OOP/view/teacher/index.php">Docentes</a></li>
+                                <li><a class="dropdown-item" href="../../../CRUD_OOP/view/teacher/create.php">Agregar nuevo docente</a></li>
                             </ul>
                         </li>
                     </ul>
